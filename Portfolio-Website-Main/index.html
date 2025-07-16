@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>CHIRAG PARMAR</h1>
+    <p>Web Developer | Designer | Programmer</p>
+  </header>
+
+  <nav>
+    <a href="#resume">Resume</a>
+    <a href="#portfolio">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <p><strong>Education:</strong> B.Tech in COMPUTER ENGINEERING (2023–2026)</p>
+    <p><strong>Experience:</strong> Web Developer Intern at ShadowFox</p>
+    <p><strong>Download Resume:</strong> <a href="Files/CHIRAG RESUME.pdf" target="_blank">Click Here</a></p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Real Estate PRO</h3>
+        <p>A platform to buy/sell/rent properties. Built with PHP & MySQL.</p>
+      </div>
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>This personal portfolio you are viewing now!</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card">HTML</div>
+      <div class="card">CSS</div>
+      <div class="card">JavaScript</div>
+      <div class="card">DBMS</div>
+      <div class="card">MySQL</div>
+      <div class="card">C LANGUAGE</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form onsubmit="submitForm(event)">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p>Email: chiragparmar27806@gmail.com | Phone: +91-9664580615</p>
+  </section>
+
+  <footer>
+    &copy; 2025 CHIRAG PARMAR. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
